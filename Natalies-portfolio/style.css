@@ -13,9 +13,9 @@
     font-size: 28px;
     color: #333;
     background-color: #a2cdcd;
-    text-align: left;
     
   }
+
 
   nav {
     display: flex;
@@ -39,8 +39,6 @@
     position:relative;
     left: 120%;
     
-    
-    
   }
 
   a{
@@ -48,7 +46,6 @@
     font-size: 18px;
     text-decoration-color: #a2cdcd;
     text-decoration-thickness: 2px;
-    display: flex;
     padding: 0px 20px;
   }
 
@@ -78,6 +75,69 @@
     bottom: 24px;
    }
     
+   h2 {
+    color:#333;
+   }
+   
+   .profilepic {
+    justify-content: left;
+    width: 15%;
+    margin-top: 12px;
+    margin-left: 10px;
+   }
+
+   .bulk {
+    display: grid;
+    grid-template-columns: 20% 85%;
+    margin: 42px;
+    padding-bottom: 50px;
+    width: 85%;
+    gap:4%;
+   }
+   
+   .page-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 200px 200px;
+    grid-template-areas:"img1 img1" "img2 img3" "img4 img5";
+    width: 100%;
+    gap: 18px;
+   }
+
+   .page-section {
+    text-align: left;
+   }
+
+   #img1 {
+    grid-area: img1;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  
+   }
+
+   .img2 {
+    grid-area: img2;
+   }
+
+   .img3 {
+    grid-area: img2;
+   }
+
+   .img4 {
+    grid-area: img2;
+   }
+
+   .img5 {
+    grid-area: img2;
+   }
+
+  .profile {
+    height: 400px;
+    width:450px;
+  }
+
+
   body {
     margin: 0;
     padding: 0;
@@ -89,9 +149,7 @@
   
   
   
-  
-  
-  h3,
+
   h4,
   h5,
   h6 {
